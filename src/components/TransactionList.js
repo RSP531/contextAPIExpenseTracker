@@ -3,6 +3,7 @@ import { GlobalContext } from '../context/GlobalState'
 
 const TransactionList = () => {
   const context = useContext(GlobalContext)
+  console.log(context)
   return (
     <>
       <h3>History</h3>
